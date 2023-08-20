@@ -82,6 +82,6 @@ tab3.newButton("Nameless Admin", "executes nameless admin", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
 end)
 
-tab3.newButton("Button", "executes infinite yield", function()
+tab3.newButton("Infinite yield", "executes infinite yield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
