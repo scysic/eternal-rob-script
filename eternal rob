@@ -56,6 +56,20 @@ end)
 tool.Parent = game.Players.LocalPlayer.Backpack
 end)
 
+tab.newButton("remove big meteors", "removes the big meteors to reduce lag", function()
+    local player = game:GetService("Players").LocalPlayer.PlayerScripts.VFXListener
+if player:FindFirstChild("BigExplosion") then
+    require(player.BigExplosion:Destroy())
+end
+end)
+
+tab.newButton("remove small meteors", "removes the small meteors to reduce lag", function()
+   local player = game:GetService("Players").LocalPlayer.PlayerScripts.VFXListener
+if player:FindFirstChild("SmallMeteorVFX") then
+    require(player.SmallMeteorVFX:Destroy())
+end
+end)
+
 
 local tab2 = DrRayLibrary.newTab("null badge", "ImageIdLogoHere")
 
