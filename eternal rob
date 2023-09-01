@@ -107,3 +107,4 @@ end)
 
 tab3.newButton("Join Discord", "Copies Discord Link", function()
 setclipboard("https://discord.gg/BbWRj6fNxG")
+end)
