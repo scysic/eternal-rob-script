@@ -1,5 +1,5 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("korsic", "Default")
+local window = DrRayLibrary:Load("korsik", "Default")
 
 local tab = DrRayLibrary.newTab("Eternal Rob", "ImageIdHere")
 
@@ -106,5 +106,6 @@ tab3.newButton("Infinite yield", "executes infinite yield", function()
 end)
 
 tab3.newButton("Join Discord", "Copies Discord Link", function()
+
 setclipboard("https://discord.gg/BbWRj6fNxG")
 end)
