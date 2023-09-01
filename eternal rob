@@ -104,3 +104,6 @@ end)
 tab3.newButton("Infinite yield", "executes infinite yield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
+
+tab3.newButton("Join Discord", "Copies Discord Link", function()
+setclipboard("https://discord.gg/BbWRj6fNxG")
